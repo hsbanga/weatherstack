@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="1" passed="0" skipped="0" total="1">
+    <suite duration-ms="23544" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="23544" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Verify the abuDhabi">
+                <test-method duration-ms="23313" finished-at="2022-03-16T15:40:39.593061300Z" name="Verify Start and Manage business page" started-at="2022-03-16T15:40:16.259786800Z" status="FAIL">
+                    <exception class="java.lang.NullPointerException">
+                        <message><![CDATA[Given launch the url........................................................passed
+When click on the category "Start & Manage a Business"......................failed
+Then verify "Start & Manage a Business" page is loaded......................skipped
+When click on the "Step-by-Step Business Guide" from "Tool" Category........skipped
+Then verify "User guide" page is loaded.....................................skipped
+And verify "Question No. 1" with all options and its content................skipped
+When Select "Get a Licience now option".....................................skipped
+And click on "Next" button..................................................skipped
+Then verify "Question No. 2" with all options and its content...............skipped
+And verify "Previous" answers...............................................skipped
+Then click on "No, I want to open a branch for my existing business" option.skipped
+And click on "Next" button..................................................skipped
+Then verify "Question No. 3" with all options and its content...............skipped
+And verify "Previous" answers...............................................skipped
+Then click on "Abu Dhabi" option............................................skipped
+And click on "Next" button..................................................skipped
+Then verify "Login" page is loaded..........................................skipped
+]]></message>
+                        <full-stacktrace><![CDATA[java.lang.NullPointerException: Cannot invoke "application_pages.AbhuDhabiPage.clickCategory(String)" because "this.abuPage" is null
+	at step_definations.AbuDhabiStepDef.click_on_the_category(AbuDhabiStepDef.java:40)
+	at ✽.click on the category "Start & Manage a Business"(file:///C:/Users/HarjinderSinghBanga/Downloads/tannAbuDhabi/src/test/resources/feature_files/abuDhabi.feature:9)
+]]></full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>
